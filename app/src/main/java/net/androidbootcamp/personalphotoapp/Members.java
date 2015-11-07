@@ -21,6 +21,6 @@ public class Members extends AppCompatActivity {
             }
         };
         Timer opening = new Timer();
-        opening.schedule(task, 4000);
+        opening.schedule(task, 4000); //time in milliseconds before moving to next activity
     }
 }
