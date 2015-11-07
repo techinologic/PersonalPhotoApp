@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         grid.setAdapter(new ImageAdapter(this));
 
+        //displays corresponding name of image based on image position.
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

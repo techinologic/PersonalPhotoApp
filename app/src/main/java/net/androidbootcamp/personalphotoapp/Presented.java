@@ -13,7 +13,7 @@ public class Presented extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presented);
-
+        //implements a timer before moving to next screen
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
@@ -22,6 +22,7 @@ public class Presented extends AppCompatActivity {
             }
         };
         Timer opening = new Timer();
-        opening.schedule(task, 4000);
+        opening.schedule(task, 4000); //value is in milliseconds
+
     }
 }
