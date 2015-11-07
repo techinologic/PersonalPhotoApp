@@ -7,18 +7,18 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SplashActivity extends AppCompatActivity {
+public class Presented extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_presented);
 
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
                 finish();
-                startActivity(new Intent(SplashActivity.this, Presented.class));
+                startActivity(new Intent(Presented.this, Members.class));
             }
         };
         Timer opening = new Timer();

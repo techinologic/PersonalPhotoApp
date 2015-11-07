@@ -13,8 +13,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Integer[] Students = {R.drawable.eagle, R.drawable.elephant, R.drawable.gorilla,
-            R.drawable.panda, R.drawable.panther, R.drawable.polar};
+    Integer[] Students = {R.drawable.ahmed, R.drawable.manoj, R.drawable.mona,
+            R.drawable.mekonen, R.drawable.paolo, R.drawable.professortaylor, R.drawable.benjamin, R.drawable.zaid};
 
     ImageView pic;
 
@@ -32,27 +32,35 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        Toast.makeText(getBaseContext(), "Selected Student Ahmed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Ahmed", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                     case 1:
-                        Toast.makeText(getBaseContext(), "Selected Student Emebet", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Manoj", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                     case 2:
-                        Toast.makeText(getBaseContext(), "Selected Student Manoj", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Mona", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                     case 3:
-                        Toast.makeText(getBaseContext(), "Selected Student Paolo", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Mekonen", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                     case 4:
-                        Toast.makeText(getBaseContext(), "Selected Student Zaid", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Paolo", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                     case 5:
-                        Toast.makeText(getBaseContext(), "Selected Student Bruk", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "Professor Brad Taylor", Toast.LENGTH_SHORT).show();
+                        pic.setImageResource(Students[position]);
+                        break;
+                    case 6:
+                        Toast.makeText(getBaseContext(), "Benjamin", Toast.LENGTH_SHORT).show();
+                        pic.setImageResource(Students[position]);
+                        break;
+                    case 7:
+                        Toast.makeText(getBaseContext(), "Zaid", Toast.LENGTH_SHORT).show();
                         pic.setImageResource(Students[position]);
                         break;
                 }

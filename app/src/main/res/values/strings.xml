@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Personal Photo App</string>
     <string name="imgLarge">CSCI398 Fall 2015 Students</string>
+    <string name="txt_presented">brought to you by</string>
+    <string name="txt_group">Group # 4</string>
+    <string name="txt_ahmed">Ahmed Almatar</string>
+    <string name="txt_manoj">Manoj Subedi</string>
+    <string name="txt_paolo">Paolo Inocencion</string>
+    <string name="txt_zaid">Zaid Alanazi</string>
 </resources>
